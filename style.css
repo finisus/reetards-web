@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'comic';
+  src: url(./metadata/fonts/ldf-comicSans-hairline.ttf);
+}
+@font-face {
+  font-family: 'comic-medium';
+  src: url(./metadata/fonts/ldf-comicSans-medium.ttf);
+}
+
+body {
+  font-family: 'comic';
+  color: black;
+  background-color: white;
+  margin: 0;
+}
+#backdrop {
+  display: block;
+  height: 100%;
+  height: 100%;
+  padding: 0;
+}
+#backdrop img {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+#backdrop-image-2 {
+  transform: rotate(180deg);
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  gap: 12px;
+  align-self: center;
+  justify-self: end;
+  margin-right: 12px;
+}
+.social-btn {
+  width: 32px;
+  height: auto;
+  border: none;
+  cursor: pointer !important;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  background: rgba(255, 255, 255, 0.0);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 3px solid black;
+  width: 600px;
+  height: 200px;
+}
+#main img {
+  width: 50%;
+  height: auto;
+}
+
+
+#buy-btn {
+  font-family: 'comic-medium';
+  font-size: 14px;
+  text-align: center !important;
+  color: black;
+  height: 32px;
+  width: 66px;
+  padding: 0;
+  background-color: #a6e3a1;
+  border: 2px solid black;
+  border-radius: 12px;
+  align-self: center;
+  margin-left: 12px;
+  margin-right: auto;
+  cursor: pointer !important;
+}
+#buy-btn:hover {
+  font-size: 14px;
+  border: 3px solid black;
+  background-color: whitesmoke;
+  color: black;
+}
+
+/*-------------------------
+    Mobile Optimzations
+-------------------------*/
+@media screen and (max-width: 659px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    background: rgba(255, 255, 255, 0.0);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border: 3px solid black;
+    width: 300px;
+    height: 200px;
+  }
+  main img {
+    width: 50%;
+    height: auto;
+  }
+
+  /* footer */
+  .contract-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+  }
+  #buy-btn {
+    font-family: 'comic-medium';
+    font-size: 14px;
+    text-align: center !important;
+    color: black;
+    height: 32px;
+    width: 66px;
+    padding: 0;
+    background-color: #a6e3a1;
+    border: 2px solid black;
+    border-radius: 12px;
+    align-self: center;
+    margin-left: 12px;
+    margin-right: auto;
+    cursor: pointer !important;
+  }
+}
