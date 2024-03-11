@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   const twitterBtn = document.getElementById('twitter-btn');
   twitterBtn.addEventListener('click', function() {
-    window.open('https://x.com/', '_blank');
+    window.open('https://x.com/Retardedonsol', '_blank');
   });
 
   function checkScreenWidth() {
