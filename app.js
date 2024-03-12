@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", function() {
   // buy
   const chartBtn = document.getElementById('chart-btn');
   chartBtn.addEventListener('click', function() {
-    window.open('https://dexscreener.com', '_blank');
+    window.open('https://dexscreener.com/solana/cp6jydb4bwdzhbwqjpcxenknembm6qccetqdmuzf8t4u', '_blank');
   });
   const buyBtn = document.getElementById('buy-btn');
   buyBtn.addEventListener('click', function() {
-    window.open('https://raydium.io/swap/', '_blank');
+    window.open('https://raydium.io/swap/?inputCurrency=sol&outputCurrency=gXXJt8cEa3NoZmc8jMgCLWeSjMQbVxuWYQ26LA9DHbp', '_blank');
   });
 
   // socials
