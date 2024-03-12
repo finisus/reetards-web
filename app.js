@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // socials
   const telegramBtn = document.getElementById('telegram-btn');
   telegramBtn.addEventListener('click', function() {
-    window.open('https://telegram.org/', '_blank');
+    window.open('https://t.me/bunchofretardsonsol', '_blank');
   });
   const twitterBtn = document.getElementById('twitter-btn');
   twitterBtn.addEventListener('click', function() {
