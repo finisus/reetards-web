@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const chartBtn = document.getElementById('chart-btn');
   chartBtn.addEventListener('click', function() {
     window.open('https://dexscreener.com', '_blank');
+  });
   const buyBtn = document.getElementById('buy-btn');
   buyBtn.addEventListener('click', function() {
     window.open('https://raydium.io/swap/', '_blank');
